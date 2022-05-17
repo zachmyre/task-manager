@@ -21,11 +21,11 @@ const Home: NextPage = () => {
   });
 
   return (
-    <div>
+    <main>
       <div>
         <Navbar />
       </div>
-      <main className="flex flex-col items-center justify-center z-0">
+
         {/* Greeting */}
         <div className="mt-2 w-full drop-shadow-xl">
           <Greeting {...user} />
@@ -35,7 +35,6 @@ const Home: NextPage = () => {
           <Calendar className="calendar" onChange={onChange} value={value} />
         </div>
       </main>
-    </div>
   );
 };
 
