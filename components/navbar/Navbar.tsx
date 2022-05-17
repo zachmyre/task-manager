@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-600 p-2 flex items-center justify-between">
+    <nav className="bg-black p-2 flex items-center justify-between">
       <svg
         onClick={toggleSideBar}
         className="w-12 hover:cursor-pointer"
@@ -35,7 +35,7 @@ const Navbar = () => {
           <Sidebar />
           <svg onClick={toggleSideBar}
             xmlns="http://www.w3.org/2000/svg"
-            className="h-12 w-12 hover:cursor-pointer"
+            className="h-12 w-12 text-white hover:cursor-pointer"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"

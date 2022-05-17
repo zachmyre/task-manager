@@ -72,7 +72,7 @@ const MenuItems: MenuItem[] = [
 
 const Sidebar = () => {
   return (
-    <div className="bg-gray-900 text-white sidebar">
+    <div className="bg-gradient-to-r from-gray-200 to-gray-400 text-white sidebar">
       <div className="h-full w-full flex flex-col">
         <div className="bg-gray-600 m-3 p-1 rounded flex items-center justify-center space-x-8">
           <svg
@@ -90,7 +90,7 @@ const Sidebar = () => {
           </svg>
           <h1 className="font-bold text-2xl">Task Manager</h1>
         </div>
-        <div className="rounded border-2 border-gray-600 m-2 p-1">
+        <div className="m-2 p-1">
           <ul className="space-y-2">
             {MenuItems.map((item, index) => (
               <SidebarItem
