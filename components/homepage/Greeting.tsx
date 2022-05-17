@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 interface User {
   name: string;
   email: string;
@@ -21,7 +23,8 @@ const Greeting = ({ name, email, avatarUrl }: User) => {
       </div>
       <div className="flex items-center justify-center space-x-6 my-1 w-1/3">
       <div className="hover:cursor-pointer hover:transition hover:duration-600 hover:ease-in-out hover:scale-125">
-          <a href="/tasks">
+        <Link href="/tasks">
+          <a>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-12 w-12 text-white"
@@ -37,9 +40,11 @@ const Greeting = ({ name, email, avatarUrl }: User) => {
               />
             </svg>
           </a>
+          </Link>
         </div>
         <div className="hover:cursor-pointer hover:transition hover:duration-600 hover:ease-in-out hover:scale-125">
-          <a href="/goals">
+          <Link href="/goals">
+          <a>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-12 w-12 text-white"
@@ -55,6 +60,7 @@ const Greeting = ({ name, email, avatarUrl }: User) => {
               />
             </svg>
           </a>
+          </Link>
         </div>
       </div>
     </div>
