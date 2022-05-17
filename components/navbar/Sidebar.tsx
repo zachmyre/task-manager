@@ -72,7 +72,7 @@ const MenuItems: MenuItem[] = [
 
 const Sidebar = () => {
   return (
-    <div className="bg-gradient-to-r from-gray-200 to-gray-400 text-white sidebar">
+    <div className="bg-gradient-to-r from-gray-200 to-gray-400 text-white sidebar z-50">
       <div className="h-full w-full flex flex-col">
         <div className="bg-gray-600 m-3 p-1 rounded flex items-center justify-center space-x-8">
           <svg

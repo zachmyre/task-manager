@@ -78,5 +78,57 @@ from { opacity: 0; }
 to   { opacity: 1; }
 }
 
+/* react calendar */
+.react-calendar{
+  width: 100% !important;
+  margin: 0 0.75rem !important;
+  border-radius: 0.5rem !important;
+  background: black !important;
+  color: white !important;
+  font-weight: bold !important;
+}
 
+/* month label on calendar */
+.react-calendar .react-calendar__navigation__label__labelText{
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+  color: white !important;
+}
+
+/* month label on hover calendar */
+.react-calendar button:hover{
+  border-radius: .25rem !important;
+}
+
+/* Neighboring month on calendar */
+.react-calendar .react-calendar__month-view__days__day--neighboringMonth{
+  color: white !important;
+  opacity: 0.45 !important;
+}
+
+/* weekends on calendar */
+.react-calendar .react-calendar__month-view__days__day--weekend{
+  color: hotpink !important;
+  border-radius: .25rem !important;
+}
+
+/* hovering over a day */
+.react-calendar .react-calendar__tile:enabled:hover{
+  border-radius: .25rem !important;
+}
+
+/* active day on calendar */
+.react-calendar .react-calendar__tile--active{
+  background: hotpink !important;
+  border-radius: .25rem !important;
+  color: white !important;
+}
+
+/* weekday labels on calendar */
+.react-calendar .react-calendar__month-view__weekdays__weekday abbr{
+  font-size: .85rem !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  color: white !important;
+}
 
