@@ -56,11 +56,11 @@ const MenuItems: MenuItem[] = [
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
-        stroke-width="2"
+        strokeWidth="2"
       >
         <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
         />
       </svg>
@@ -84,8 +84,8 @@ const Sidebar = () => {
             <path
               d="M12.5306 7.90879V5.57711C12.5306 4.59536 12.6609 3 14.3265 3C15.7755 3 16.0816 4.32946 16.0816 5.20895V12.3062H19.0612C19.7006 12.2653 21 12.7358 21 14.2084C21 15.681 19.9388 16.0901 19.0612 16.0901H11.2245V19.3217C11.2245 20.1603 10.9143 20.9662 9.67351 20.9989C8.4327 21.0316 7.95917 20.3444 7.95917 19.3217V11.5904H5.06122C4.12245 11.5904 3 11.2631 3 9.66777C3 8.2974 4.12245 7.82697 5.06122 7.82697H10.3653"
               stroke="lightgray"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
           <h1 className="font-bold text-2xl">Task Manager</h1>
